@@ -1,6 +1,6 @@
 ---
-sonar_user: admin
-sonar_password: admin
-sonar_api_base_path: /api
-sonar_validate_certs: False
+sonarqube_user: admin
+sonarqube_password: admin
+sonarqube_api_base_path: /api
+sonarqube_validate_certs: False
 
