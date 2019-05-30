@@ -1,7 +1,7 @@
 ---
 sonarqube_user: admin
 sonarqube_password: admin
-sonarqube_api_base_path: /api
+sonarqube_api_base_path: /api/webservices/list
 sonarqube_validate_certs: False
 sonarqube_server_poll_retries: 100
 sonarqube_server_poll_delay_in_seconds: 5
