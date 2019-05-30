@@ -37,7 +37,7 @@ ansible_tower:
   - name: "Project1"
     description: "My Project"
     scm_type: "git"
-    scm_url: "https://github.com/redhat-cop/infra-ansible.git"
+    scm_url: "https://github.com/dimjost/infra-ansible.git"
     scm_branch: "master"
     organization: "Default"
 ```

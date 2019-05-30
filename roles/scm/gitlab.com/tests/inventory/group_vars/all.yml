@@ -12,9 +12,9 @@ group:
 projects:
 - repo_name: test-ci-cd
   deploy_key_location: "{{ lookup('file', './files/test-1.pub') }}"
-  import_url: https://github.com/rht-labs/labs-ci-cd.git
+  import_url: https://github.com/dimjost/labs-ci-cd.git
 - repo_name: test-app
-  import_url: https://github.com/rht-labs/labs-ci-cd.git
+  import_url: https://github.com/dimjost/labs-ci-cd.git
   deploy_key_location: "{{ lookup('file', './files/test-2.pub') }}"
 
 users:

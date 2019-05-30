@@ -21,7 +21,7 @@ repos:
   auto_init: false
   deploy_key_location: "{{ lookup('file', './files/test-1.pub') }}"
   deploy_key_read_only: yes
-  seed_repo_url: https://github.com/rht-labs/labs-ci-cd.git
+  seed_repo_url: https://github.com/dimjost/labs-ci-cd.git
 - repo_name: test-app
   description: This is your first Repo
   private_repo_bool: false
@@ -31,7 +31,7 @@ repos:
   auto_init: false
   deploy_key_location: "{{ lookup('file', './files/test-2.pub') }}"
   deploy_key_read_only: yes
-  seed_repo_url: https://github.com/rht-labs/labs-ci-cd.git
+  seed_repo_url: https://github.com/dimjost/labs-ci-cd.git
 
 users:
 - '"aGithubUser"'

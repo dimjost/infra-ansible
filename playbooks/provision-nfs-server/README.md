@@ -12,7 +12,7 @@ This playbook is for provisioning a server to host NFS shares.
 
 | variable | info |
 |:--------:|:----:|
-|nfs-shares|List of nfs shares to create, more details at [nfs-server role](https://github.com/redhat-cop/infra-ansible/tree/master/roles/nfs-server)|
+|nfs-shares|List of nfs shares to create, more details at [nfs-server role](https://github.com/dimjost/infra-ansible/tree/master/roles/nfs-server)|
 |nfs_storage_device|The storage device where the nfs shares will be running.|
 |rhsm_username|Subscription manager username|
 |rhsm_password|Subscription manager password|

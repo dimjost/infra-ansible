@@ -1,8 +1,8 @@
 # infra-ansible
 
-infra-ansible was created as a supporting repo to [casl-ansible](https://github.com/redhat-cop/casl-ansible), and to house infrastructure provisioning playbooks and roles - such as DNS, DHCP, etc. This repo has since grown to provide automation for an even broader scope, and for components typically found in a modern data center.
+infra-ansible was created as a supporting repo to [casl-ansible](https://github.com/dimjost/casl-ansible), and to house infrastructure provisioning playbooks and roles - such as DNS, DHCP, etc. This repo has since grown to provide automation for an even broader scope, and for components typically found in a modern data center.
 
-**Note:** This repository is meant for non-container based implementations and infrastructure components. Anything container (and OpenShift) related should be considered submitted to the [casl-ansible](https://github.com/redhat-cop/casl-ansible) repo.
+**Note:** This repository is meant for non-container based implementations and infrastructure components. Anything container (and OpenShift) related should be considered submitted to the [casl-ansible](https://github.com/dimjost/casl-ansible) repo.
 
 
 

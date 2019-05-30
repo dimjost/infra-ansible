@@ -18,6 +18,6 @@ This role uses the OpenShift command-line tool to upload a JAR based SonarQube p
 ```
 
 # Testing
-* Deploy a [Labs CI/CD environment](https://github.com/rht-labs/labs-ci-cd)
+* Deploy a [Labs CI/CD environment](https://github.com/dimjost/labs-ci-cd)
 * Apply the role using the test playbook: `ansible-playbook -i inventory test.yml
 * Verify deployment after SonarQube restarts
