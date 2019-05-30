@@ -1,0 +1,6 @@
+---
+sonar_user: admin
+sonar_password: admin
+sonar_api_base_path: /api
+sonar_validate_certs: true
+

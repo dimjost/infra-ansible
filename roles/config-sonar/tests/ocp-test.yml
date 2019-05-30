@@ -1,0 +1,9 @@
+---
+# This test assumes a locally running SonarQube app.
+# The easiest way to acheive that is via `docker run -it -p 9000:9000 sonarqube
+
+- name: "Configure Sonar"
+  hosts: ocp-sonar
+
+  roles:
+  - configure-sonar

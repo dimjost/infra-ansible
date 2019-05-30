@@ -1,0 +1,2 @@
+[ocp-sonar]
+localhost sonar_url=sonarqube:9000 sonar_port=9000 ansible_connection=local

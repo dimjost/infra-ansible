@@ -1,0 +1,16 @@
+---
+
+- name: "Ensure the Sonar Server is Up"
+  uri:
+    url: "http://{{ sonar_url }}/api/system/ping"
+    method: GET
+    status_code: 200
+    user: "{{ sonar_user }}"
+    password: "{{ sonar_password }}"
+    force_basic_auth: yes
+    validate_certs: "{{ sonar_validate_certs }}"
+  register: sonar_server_check_result
+  until: sonar_server_check_result is success
+  retries: '{{ sonar_server_poll_retries }}'
+  delay: '{{ sonar_server_poll_delay_in_seconds }}'
+

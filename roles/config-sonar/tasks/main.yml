@@ -1,0 +1,17 @@
+---
+
+- name: "Look up Sonar URL"
+  command: >
+    oc get route {{ sonar_name | default('sonarqube') }} -n {{ sonar_namespace }} -o custom-columns=ROUTE:.spec.host --no-headers
+  register: sonar_url_result
+  when:
+  - sonar_url is not defined or sonar_url|trim == ''
+
+- name: "Set sonar_url Result"
+  set_fact:
+    sonar_url: "{{ sonar_url_result.stdout }}"
+  when:
+  - sonar_url is not defined or sonar_url|trim == ''
+
+- name: "Ensure Sonar is available before attempting to communicate"
+  include_tasks: wait-for-sonar.yml
